@@ -1,0 +1,20 @@
+{
+  "type" : "struct",
+  "fields" : [ {
+    "name" : "_INPUT_FILE_NO",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 9
+    }
+  }, {
+    "name" : "_INT_TX_NO",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 9
+    }
+  } ]
+}

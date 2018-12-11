@@ -1,0 +1,2 @@
+def hi () = "Hi"
+def

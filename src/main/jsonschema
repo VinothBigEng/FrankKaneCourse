@@ -1,0 +1,1306 @@
+{
+  "type" : "struct",
+  "fields" : [ {
+    "name" : "_INPUT_FILE_NO",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 9
+    }
+  }, {
+    "name" : "_INT_TX_NO",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 9
+    }
+  }, {
+    "name" : "_TX_PHASE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 3
+    }
+  }, {
+    "name" : "_TX_LEG",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "D10_DS_IN_USER_CODE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 7
+    }
+  }, {
+    "name" : "_DS_IN_USER_CODE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 7
+    }
+  }, {
+    "name" : "_TARGET_DS_OUT_USER_CODE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 7
+    }
+  }, {
+    "name" : "_FILE_ID",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 2
+    }
+  }, {
+    "name" : "_FILE_TYPE_OF_SERV",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 2
+    }
+  }, {
+    "name" : "_FILE_PROC_DATE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 9
+    }
+  }, {
+    "name" : "_TX_EFF_DATE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 9
+    }
+  }, {
+    "name" : "_STATUS",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_REJECTION_REASON",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 3
+    }
+  }, {
+    "name" : "_REJECTION_QUALIFIER",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 5
+    }
+  }, {
+    "name" : "_POS_CONF_REQ",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_IMPOSE_PENDING_HOLD",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_CDV_VALIDATION",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_DATE_ROLLED",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_DR_AM_PM",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_SERVICE_ROLLED",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_RETRY",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_RETRY_DAYS",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 3
+    }
+  }, {
+    "name" : "_TARGET_ACC_DROP_DATE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 9
+    }
+  }, {
+    "name" : "_DROP_STATUS",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_SPLIT_FILE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_TX_TYPE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 3
+    }
+  }, {
+    "name" : "_TX_SUB_TYPE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 3
+    }
+  }, {
+    "name" : "_PROCESSING_SEQUENCE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 3
+    }
+  }, {
+    "name" : "_ACB_USER_CODE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 4
+    }
+  }, {
+    "name" : "_ACB_USER_SEQUENCE_NO",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 7
+    }
+  }, {
+    "name" : "_CLIENT_CODE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 5
+    }
+  }, {
+    "name" : "_CLIENT_GENO",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 7
+    }
+  }, {
+    "name" : "_ACBU_GENO",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 7
+    }
+  }, {
+    "name" : "_TRANSM_DATE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 8
+    }
+  }, {
+    "name" : "_CLIENT_SEQ_NO",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 6
+    }
+  }, {
+    "name" : "_ACB_SERV",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 2
+    }
+  }, {
+    "name" : "_UNAN",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 11
+    }
+  }, {
+    "name" : "_SET_NO",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 7
+    }
+  }, {
+    "name" : "_ACB_USCD_REGIS_COMP",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 4
+    }
+  }, {
+    "name" : "FILLER",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_SOURCE_FIN",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_SOURCE_ACC_BRANCH",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 7
+    }
+  }, {
+    "name" : "_SOURCE_ORG_ACC_NO",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 24
+    }
+  }, {
+    "name" : "_SOURCE_ACC_NO_LL",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 2
+    }
+  }, {
+    "name" : "_SOURCE_ACC_NO",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 24
+    }
+  }, {
+    "name" : "_SOURCE_ACC_TYPE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 2
+    }
+  }, {
+    "name" : "_SOURCE_ACC_HOST",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_SOURCE_ACC_PRODUCT",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 2
+    }
+  }, {
+    "name" : "_SOURCE_ACC_REF",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 30
+    }
+  }, {
+    "name" : "_SOURCE_ACC_ECHO",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 15
+    }
+  }, {
+    "name" : "_SOURCE_ACC_INDEX",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 3
+    }
+  }, {
+    "name" : "_TARGET_FIN",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_TARGET_ACC_BRANCH",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 7
+    }
+  }, {
+    "name" : "_TARGET_ORG_ACC_NO",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 24
+    }
+  }, {
+    "name" : "_TARGET_ACC_NO_LL",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 2
+    }
+  }, {
+    "name" : "_TARGET_ACC_NO",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 24
+    }
+  }, {
+    "name" : "_TARGET_ACC_TYPE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 2
+    }
+  }, {
+    "name" : "_TARGET_ACC_HOST",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_TARGET_ACC_PRODUCT",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 2
+    }
+  }, {
+    "name" : "_TARGET_ACC_REF",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 30
+    }
+  }, {
+    "name" : "_TARGET_ACC_ECHO",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 15
+    }
+  }, {
+    "name" : "_TARGET_ACC_NAME",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 30
+    }
+  }, {
+    "name" : "_TARGET_ACC_CLIENT_NO",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 16
+    }
+  }, {
+    "name" : "_TARGET_ACC_CLIENT_NAME",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 30
+    }
+  }, {
+    "name" : "_ACTION_DATE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 9
+    }
+  }, {
+    "name" : "_AMOUNT_REQUESTED",
+    "type" : "double",
+    "nullable" : true,
+    "metadata" : { }
+  }, {
+    "name" : "_AMOUNT_PROCESSED",
+    "type" : "double",
+    "nullable" : true,
+    "metadata" : { }
+  }, {
+    "name" : "_TX_TYPE_OF_SERV",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 2
+    }
+  }, {
+    "name" : "_TX_DOCUMENT_NO",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 10
+    }
+  }, {
+    "name" : "_CONSOLIDATED_TX_IND",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_TX_LEG_ID",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 2
+    }
+  }, {
+    "name" : "_ENTRY_CLASS",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 2
+    }
+  }, {
+    "name" : "_TAX_CODE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_TYPE_OF_INST",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 2
+    }
+  }, {
+    "name" : "_SOURCE_ACC_DB",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 8
+    }
+  }, {
+    "name" : "_TARGET_ACC_DB",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 8
+    }
+  }, {
+    "name" : "_BACK_DATING_ALLOWED",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_DATE_AND_SERVICE_ROLL",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 2
+    }
+  }, {
+    "name" : "_DS_IN_USER_DB",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 8
+    }
+  }, {
+    "name" : "_TX_IN_SUSPENSE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_NO_OF_RETRIES",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 3
+    }
+  }, {
+    "name" : "_MAX_NO_OF_RETRIES",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 3
+    }
+  }, {
+    "name" : "_REJECTION_LEVEL",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_OUTPUT_FILE_NO",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 9
+    }
+  }, {
+    "name" : "_ACB_INSTALLATION_CODE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 7
+    }
+  }, {
+    "name" : "_SITE_CORP",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 3
+    }
+  }, {
+    "name" : "_SITE_TYPE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 3
+    }
+  }, {
+    "name" : "_SITE_CODE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 7
+    }
+  }, {
+    "name" : "_GL_SOURCE_FUNCTION_CODE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 4
+    }
+  }, {
+    "name" : "_GL_TARGET_FUNCTION_CODE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 4
+    }
+  }, {
+    "name" : "_BUREAU_FILE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_GENERATED_TX",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_ORG_ACB_USER_SEQUENCE_NO",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 7
+    }
+  }, {
+    "name" : "_DB_ACTION_SEQ",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 2
+    }
+  }, {
+    "name" : "_CR_AM_PM",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_PROCESSING_OPTION",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 2
+    }
+  }, {
+    "name" : "_SOURCE_STATEMENT_CODE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 4
+    }
+  }, {
+    "name" : "_TARGET_STATEMENT_CODE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 4
+    }
+  }, {
+    "name" : "_SOURCE_ACC_DROP_DATE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 9
+    }
+  }, {
+    "name" : "_TARGET_ACC_EXCEPTION_IND",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 2
+    }
+  }, {
+    "name" : "_SOURCE_ACC_EXCEPTION_IND",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 2
+    }
+  }, {
+    "name" : "_ONLINE_BATCH_IND",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_CROSS_PORTFOLIO_IND",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_TARGET_ACC_WEEK_CYCLE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_SOURCE_ACC_WEEK_CYCLE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_CHARGES_FREE_TX",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_TX_CHARGE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 8
+    }
+  }, {
+    "name" : "_FILE_PROC_TIME",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 7
+    }
+  }, {
+    "name" : "_TX_MODE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 3
+    }
+  }, {
+    "name" : "_CONTROLLING_SITE_CORP",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 3
+    }
+  }, {
+    "name" : "_CONTROLLING_SITE_TYPE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 3
+    }
+  }, {
+    "name" : "_CONTROLLING_SITE_CODE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 7
+    }
+  }, {
+    "name" : "_UNCLEARED_AMOUNT",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 18
+    }
+  }, {
+    "name" : "_WORK_STATION",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 8
+    }
+  }, {
+    "name" : "_TELLER_NUMBER",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 9
+    }
+  }, {
+    "name" : "_CONTROLLER_NUMBER",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 9
+    }
+  }, {
+    "name" : "_INPUT_DS_USER_TYPE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_INPUT_FILE_BALANCED",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_PENDING_TX",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_PENDING_TARGET_STATUS",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_PENDING_SOURCE_STATUS",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_PAYMENT_TYPE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_SOURCE_NUMERIC_EVENT_NO",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 9
+    }
+  }, {
+    "name" : "_TARGET_NUMERIC_EVENT_NO",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 9
+    }
+  }, {
+    "name" : "_PENDING_SEQ_NO",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 3
+    }
+  }, {
+    "name" : "_INTERNAL_ERROR",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 3
+    }
+  }, {
+    "name" : "_PS_DUE_AMOUNT_TX",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_SOURCE_EFF_DATE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 9
+    }
+  }, {
+    "name" : "_TARGET_EFF_DATE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 9
+    }
+  }, {
+    "name" : "_PROD_ECHO_DATA",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 30
+    }
+  }, {
+    "name" : "_NEXT_ACTION_DATE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 9
+    }
+  }, {
+    "name" : "_UNPAIDS_PROCESSING_IND",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_SPLIT_CONTRA",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_GL_CONF_REQUIRED",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_TARGET_ACC_INDEX",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 3
+    }
+  }, {
+    "name" : "_MANDATE_NUMBER",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 7
+    }
+  }, {
+    "name" : "_REDIRECT_ACCOUNT",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 24
+    }
+  }, {
+    "name" : "_REDIRECT_BRANCH",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 7
+    }
+  }, {
+    "name" : "_REDIRECT_ACCTYPE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 2
+    }
+  }, {
+    "name" : "_NO_OF_REDIRECTS",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 2
+    }
+  }, {
+    "name" : "_OUTPUT_FILE_ID",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 2
+    }
+  }, {
+    "name" : "_RETURN_TO_SUBMITTER",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_F52_ACTION",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_F54_ACTION",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_F56_ACTION",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_F80_ACTION",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_INTEREST_MATURED",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_ACB_RECALL",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_MREFS_CONF_REQ",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_TARGET_REJECTION",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 3
+    }
+  }, {
+    "name" : "_ACCOUNT_SITE_CORP",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 3
+    }
+  }, {
+    "name" : "_ACCOUNT_SITE_TYPE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 3
+    }
+  }, {
+    "name" : "_ACCOUNT_SITE_CODE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 7
+    }
+  }, {
+    "name" : "_BRCD_FPATH",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 5
+    }
+  }, {
+    "name" : "_VAT_AMOUNT",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 18
+    }
+  }, {
+    "name" : "_DROP_MREFS",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_OTR_DR_ACCOUNT",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 24
+    }
+  }, {
+    "name" : "_INITIATOR_IND",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_PROCESSING_MODE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_FOLLOW_ME_IND",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : false,
+      "width" : 1
+    }
+  }, {
+    "name" : "_FILE_NAME",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : {
+      "generated" : true,
+      "width" : 40
+    }
+  }, {
+    "name" : "_RECORD_TYPE",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : { }
+  }, {
+    "name" : "UID",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : { }
+  }, {
+    "name" : "_ABB_NAME",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : { }
+  }, {
+    "name" : "_USER_REF",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : { }
+  } ]
+}
